@@ -1,13 +1,15 @@
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar.vue';
+import Home from './components/Home.vue';
+import Category from './components/Category.vue';
 </script>
 
 <template>
-  <nav>
-    <div>
-      <h1>Hallow<span class="text-secondary">ee</span>nd</h1>
-    </div>
-  </nav>
+  <div class="container">
+    <Navbar/>
+    <Home/>
+    <Category/>
+  </div>
 </template>
 
 <style scoped>
